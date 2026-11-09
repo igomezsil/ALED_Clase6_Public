@@ -18,8 +18,7 @@ public class Alumno implements Comparable<Alumno> {
 		return this.nombre;
 	}
 	
-	public static Alumno[] ordenar(Alumno[] arr, 
-			Comparator<Alumno> comparador) {
+	public static Alumno[] ordenar(Alumno[] arr, Comparator<Alumno> comparador) {
 		
 		for (int pasada = 0; pasada < arr.length; pasada++) {
 			
